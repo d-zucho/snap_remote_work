@@ -1,0 +1,56 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 0.85rem;
+}
+
+nav {
+  margin-left: 3rem;
+}
+
+ul {
+  display: flex;
+  /* margin-left: 3rem; */
+  gap: 2rem;
+}
+
+ul li a {
+  color: #686868;
+  /* font-size: 0.85rem; */
+}
+
+.login-register {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #686868;
+}
+
+.register {
+  padding: 0.5rem 1.25rem;
+  /* font-size: 0.85rem; */
+  border-radius: 12px;
+  border: 1px solid #686868;
+  transition: all 0.3s ease-in-out;
+}
+
+.register:hover {
+  transform: scale(1.05);
+}
+
+.register:active {
+  transform: scale(0.95);
+}
